@@ -393,7 +393,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/TheVoid" name="TheRingMaster/android_packages_apps_TheVoid" remote="gh" revision="master"/>
+  <project path="packages/apps/TheVoid" name="TheRingMaster/android_packages_apps_TheVoid" remote="gh" revision="kitkat"/>
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Torch" name="ValidusAOSP/packages_apps_Torch" remote="gh" revision="vaosp" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
