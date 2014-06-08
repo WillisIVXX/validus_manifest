@@ -358,7 +358,6 @@
   <project path="packages/apps/Camera2" name="CarbonDev/android_packages_apps_Camera2" />
   <project path="packages/apps/CarbonAbout" name="CarbonDev/android_packages_apps_CarbonAbout" />
   <project path="packages/apps/CarbonDelta" name="CarbonDev/android_packages_apps_CarbonDelta" />
-  <project path="packages/apps/CarbonFibers" name="TheRingMaster/android_packages_apps_CarbonFibers" remote="gh" revision="kk"/>
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-11.0" />
@@ -394,8 +393,9 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/TheVoid" name="TheRingMaster/android_packages_apps_TheVoid" remote="gh" revision="master"/>
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="gh" revision="kk4.4" />
+  <project path="packages/apps/Torch" name="ValidusAOSP/packages_apps_Torch" remote="gh" revision="vaosp" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Wallpapers" name="CarbonDev/android_packages_apps_CarbonWallpapers" />
@@ -492,7 +492,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="vendor/carbon" name="CarbonDev/android_vendor_carbon" />
+  <project path="vendor/carbon" name="TheRingMaster/android_vendor_carbon" remote="gh" revision="kk"/>
   
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="cm-11.0" />
   <project name="TheRingMaster/android_device_motorola_moto_msm8960dt" path="device/motorola/moto_msm8960dt" remote="gh" revision="carbon" />
