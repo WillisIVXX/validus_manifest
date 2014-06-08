@@ -34,16 +34,16 @@
   <project path="build" name="CarbonDev/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="CarbonDev/android" />
+  <project path="android" name="TheRingMaster/android" remote="gh" revision="kk"/>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="art" name="CarbonDev/android_art" />
-  <project path="bionic" name="CarbonDev/android_bionic" groups="pdk" />
+  <project path="art" name="CyanogenMod/android_art" remote="gh" revision="cm-11.0"/>
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="gh" revision="cm-11.0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" remote="cm" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="dalvik" name="CarbonDev/android_dalvik" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="gh" revision="cm-11.0"/>
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
@@ -287,7 +287,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="frameworks/av" name="CarbonDev/android_frameworks_av" />
-  <project path="frameworks/base" name="CarbonDev/android_frameworks_base" />
+  <project path="frameworks/base" name="TheRingMaster/android_frameworks_base" remote="gh" revision="kk"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
@@ -357,7 +357,7 @@
   <project path="packages/apps/Camera2" name="CarbonDev/android_packages_apps_Camera2" />
   <project path="packages/apps/CarbonAbout" name="CarbonDev/android_packages_apps_CarbonAbout" />
   <project path="packages/apps/CarbonDelta" name="CarbonDev/android_packages_apps_CarbonDelta" />
-  <project path="packages/apps/CarbonFibers" name="CarbonDev/android_packages_apps_CarbonFibers" />
+  <project path="packages/apps/CarbonFibers" name="TheRingMaster/android_packages_apps_CarbonFibers" remote="gh" revision="kk"/>
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-11.0" />
@@ -386,7 +386,7 @@
   <project path="packages/apps/ROMStats" name="CarbonDev/android_packages_apps_ROMStats" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="gh" revision="kitkat" />
-  <project path="packages/apps/Settings" name="CarbonDev/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="TheRingMaster/android_packages_apps_Settings" remote="gh" revision="kk" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
@@ -492,4 +492,9 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="vendor/carbon" name="CarbonDev/android_vendor_carbon" />
+  
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="cm-11.0" />
+  <project name="TheRingMaster/android_device_motorola_moto_msm8960dt" path="device/motorola/moto_msm8960dt" remote="gh" revision="carbon" />
+  <project name="CyanogenMod/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="gh" revision="cm-11.0" />
+  <project name="CyanogenMod/android_kernel_motorola_msm8960dt-common" path="kernel/motorola/msm8960dt-common" remote="gh" revision="cm-11.0" />
 </manifest>
