@@ -3,7 +3,7 @@ Validus Source
 
 
 ----------------------------------------
-    repo init -u https://github.com/TheRingMaster/validus_manifest.git -b kitkat && repo sync -j64
+    repo init -u https://github.com/GzRoms-Redux/validus_manifest.git -b kitkat && repo sync -j64
 
 *PLEASE NOTE THAT YOU MUST USE THE -f flag when repo syncing/initializing if you want to sync with our default -j4 setup as android.googlesource seems to like to reject your requests if you set your -jflag too high. 
 if you wish to avoid this issue run it repo sync -j1 otherwise -f (force) is recommended so it will resync the repos it gets error codes on. Thank you and have a nice day.*
