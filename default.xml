@@ -37,7 +37,7 @@
   <project path="build" name="TheRingMaster/validus_build" remote="gh" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="TheRingMaster/android" remote="gh" revision="kk"/>
+  <project path="android" name="TheRingMaster/validus_manifest" remote="gh" revision="kitkat"/>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="art" name="CyanogenMod/android_art" remote="gh" revision="cm-11.0"/>
   <project path="bionic" name="CyanogenMod/android_bionic" remote="gh" revision="cm-11.0" />
