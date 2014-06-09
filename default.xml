@@ -34,10 +34,10 @@
            remote="cr"
            sync-j="4" />
 
-  <project path="build" name="TheRingMaster/validus_build" remote="gh" revision="kitkat" >
+  <project path="build" name="GzRoms-redux/validus_build" remote="gh" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="TheRingMaster/validus_manifest" remote="gh" revision="kitkat"/>
+  <project path="android" name="GzRoms-Redux/validus_manifest" remote="gh" revision="kitkat"/>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="art" name="CyanogenMod/android_art" remote="gh" revision="cm-11.0"/>
   <project path="bionic" name="CyanogenMod/android_bionic" remote="gh" revision="cm-11.0" />
@@ -291,7 +291,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="frameworks/av" name="CarbonDev/android_frameworks_av" />
-  <project path="frameworks/base" name="TheRingMaster/android_frameworks_base" remote="gh" revision="kk"/>
+  <project path="frameworks/base" name="GzRoms-Redux/android_frameworks_base" remote="gh" revision="kk"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
@@ -359,8 +359,6 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Camera2" name="CarbonDev/android_packages_apps_Camera2" />
-  <project path="packages/apps/CarbonAbout" name="CarbonDev/android_packages_apps_CarbonAbout" />
-  <project path="packages/apps/CarbonDelta" name="CarbonDev/android_packages_apps_CarbonDelta" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-11.0" />
@@ -386,17 +384,16 @@
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="packages/apps/ROMStats" name="CarbonDev/android_packages_apps_ROMStats" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="gh" revision="kitkat" />
-  <project path="packages/apps/Settings" name="TheRingMaster/packages_apps_Settings" remote="gh" revision="kitkat" />
+  <project path="packages/apps/Settings" name="GzRoms-Redux/packages_apps_Settings" remote="gh" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/TheVoid" name="TheRingMaster/android_packages_apps_TheVoid" remote="gh" revision="kitkat"/>
+  <project path="packages/apps/TheVoid" name="GzRoms-Redux/android_packages_apps_TheVoid" remote="gh" revision="kitkat"/>
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="gh" revision="kk4.4" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
@@ -477,7 +474,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="system/core" name="TheRingMaster/system_core" remote="gh" revision="kitkat" />
+  <project path="system/core" name="GzRoms-Redux/system_core" remote="gh" revision="kitkat" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/media" name="CarbonDev/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
@@ -495,10 +492,10 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="vendor/validus" name="TheRingMaster/android_vendor_validus" remote="gh" revision="kitkat"/>
+  <project path="vendor/validus" name="GzRoms-Redux/android_vendor_validus" remote="gh" revision="kitkat"/>
   
   <!-- Validus Papers -->
-  <project path="packages/wallpapers/SwagPapers" name="TheRingMaster/packages_wallpapers_SwagPapers_v2" remote="gh" revision="vaosp" />
+  <project path="packages/wallpapers/SwagPapers" name="GzRoms-Redux/packages_wallpapers_SwagPapers_v2" remote="gh" revision="vaosp" />
   
   <!-- Vendor Files -->
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="cm-11.0" />
