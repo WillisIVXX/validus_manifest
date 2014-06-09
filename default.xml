@@ -492,7 +492,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="vendor/carbon" name="TheRingMaster/android_vendor_carbon" remote="gh" revision="kk"/>
+  <project path="vendor/validus" name="TheRingMaster/android_vendor_validus" remote="gh" revision="kitkat"/>
   
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="cm-11.0" />
   <project name="TheRingMaster/android_device_motorola_moto_msm8960dt" path="device/motorola/moto_msm8960dt" remote="gh" revision="carbon" />
