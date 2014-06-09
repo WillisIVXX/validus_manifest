@@ -7,7 +7,7 @@
            sync-j="1" />
 
   <remote  name="gzr"
-           fetch="https://github.com/TheRingMaster/" />
+           fetch="https://github.com/GzRoms-Redux/" />
 
   <remote  name="cm"
            fetch="git://github.com/" 
