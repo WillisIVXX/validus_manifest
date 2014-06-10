@@ -492,7 +492,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="vendor/validus" name="GzRoms-Redux/android_vendor_validus" remote="gh" revision="kitkat"/>
+  <project path="vendor/validus" name="GzRoms-Redux/android_vendor_validus" remote="gh" revision="kitkat" />
   
   <!-- Validus Papers -->
   <project path="packages/wallpapers/SwagPapers" name="GzRoms-Redux/packages_wallpapers_SwagPapers_v2" remote="gh" revision="vaosp" />
