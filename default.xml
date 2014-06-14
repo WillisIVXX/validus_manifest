@@ -397,6 +397,7 @@
   <project path="packages/apps/TheVoid" name="GzRoms-Redux/android_packages_apps_TheVoid" remote="gh" revision="kitkat"/>
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="gh" revision="kk4.4" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/ValidusAbout" name="GzRoms-Redux/android_packages_apps_ValidusAbout" remote="gh" revision="kitkat" />
   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" remote="cm" revision="cm-11.0" />
