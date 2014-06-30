@@ -13,6 +13,10 @@
            fetch="git://github.com/" 
            review="review.cyanogenmod.org" 
            sync-j="4" />
+           
+  <remote name="du"
+           fetch="https://github.com/DirtyUnicorns-KitKat/"
+           review="gerrit.dirtyunicorns.com" />           
 
   <remote  name="cr"
            fetch="git://github.com/"
@@ -395,7 +399,7 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/TheVoid" name="GzRoms-Redux/android_packages_apps_TheVoid" remote="gh" revision="kitkat"/>
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="du" revision="du44"/>
   <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="gh" revision="kk4.4" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="packages/apps/ValidusAbout" name="GzRoms-Redux/android_packages_apps_ValidusAbout" remote="gh" revision="kitkat" />
@@ -410,7 +414,7 @@
   <project path="packages/providers/MediaProvider" name="CarbonDev/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="cm" revision="cm-11.0" />
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="cm" revision="cm-11.0" />
+  <project path="packages/providers/ThemesProvider" name="packages_providers_ThemesProvider" remote="du" revision="du44"/>
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
