@@ -19,7 +19,7 @@
            review="review.carbonrom.org"
            sync-j="4" />
            
- <remote name="du"
+  <remote name="du"
            fetch="https://github.com/DirtyUnicorns-KitKat/"
            review="gerrit.dirtyunicorns.com" />  
 
