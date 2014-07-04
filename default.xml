@@ -502,7 +502,7 @@
   <project path="packages/wallpapers/SwagPapers" name="GzRoms-Redux/packages_wallpapers_SwagPapers_v2" remote="gh" revision="vaosp" />
   
   <!-- Vendor Files -->
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="cm-11.0" />
+  <project name="LiquidSmooth/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="kitkat" />
   <project name="GzRoms-Redux/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="kitkat" />
   
   <!-- Toolchains -->
