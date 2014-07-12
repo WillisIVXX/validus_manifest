@@ -26,6 +26,14 @@
   <remote  name="gh"
            fetch="https://github.com/"
            sync-j="4" />
+           
+  <remote name="ls"
+          fetch="https://github.com/LiquidSmooth/"
+          sync-j="4" />
+           
+  <remote name="lsd"
+          fetch="https://github.com/LiquidSmooth-Devices/"
+          sync-j="4" />
 
   <remote  name="sf"
            fetch="git://git.code.sf.net/p/"
