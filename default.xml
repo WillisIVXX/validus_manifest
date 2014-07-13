@@ -465,7 +465,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="UBERUTILS/arm-eabi-4.7" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="UBERUTILS/arm-linux-androideabi-4.7" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
@@ -513,8 +512,10 @@
   <project name="GzRoms-Redux/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="kitkat" />
   
   <!-- Toolchains -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" name="UBERUTILS/arm-eabi-4.10" remote="gh" revision="master" />
 
+  <!-- LINARO TOOLCHAIN -->
+  <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="gh" revision="4.8-eabi" />
+  <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="gh" revision="4.8-androideabi" /> 
 </manifest>
