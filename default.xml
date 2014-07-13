@@ -41,7 +41,7 @@
            remote="cr"
            sync-j="4" />
 
-  <project path="build" name="GzRoms-Redux/validus_build" remote="gh" revision="gcc-4.8" >
+  <project path="build" name="GzRoms-Redux/validus_build" remote="gh" revision="archi" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="GzRoms-Redux/validus_manifest" remote="gh" revision="kitkat"/>
