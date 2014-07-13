@@ -47,7 +47,7 @@
   <project path="android" name="GzRoms-Redux/validus_manifest" remote="gh" revision="kitkat"/>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="art" name="LiquidSmooth/android_art" remote="gh" revision="kitkat"/>
-  <project path="bionic" name="LiquidSmooth/android_bionic" remote="gh" revision="kitkat" />
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="gh" revision="cm-11.0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="cm" revision="cm-11.0" />
