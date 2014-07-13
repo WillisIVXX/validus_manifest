@@ -3,5 +3,5 @@ Validus Source
 
 
 ----------------------------------------
-    repo init -u https://github.com/GzRoms-Redux/validus_manifest.git -b gcc && repo sync -j64
+    repo init -u https://github.com/GzRoms-Redux/validus_manifest.git -b archi && repo sync -j64
 
