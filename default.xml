@@ -520,7 +520,5 @@
   <!-- Weather -->
   <project path="packages/apps/EOSWeather" name="packages_apps_EOSWeather" remote="gzr" revision="kitkat" />
 
-  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="gh" revision="kk4.4" />
-
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="gh" revision="kk4.4" />
 </manifest>
