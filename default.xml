@@ -521,4 +521,15 @@
   <project path="packages/apps/EOSWeather" name="packages_apps_EOSWeather" remote="gzr" revision="kitkat" />
 
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="gh" revision="kk4.4" />
+
+  <!-- Sabermod -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-sm" name="UBERUTILS/arm-linux-androideabi-4.7" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="UBERUTILS/arm-linux-androideabi-4.8" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="UBERUTILS/arm-linux-androideabi-4.9" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10-sm" name="UBERUTILS/arm-linux-androideabi-4.10" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="UBERUTILS/arm-eabi-4.7" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="UBERUTILS/arm-eabi-4.8" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="UBERUTILS/arm-eabi-4.9" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="UBERUTILS/arm-eabi-4.10" remote="gh" revision="master" />
+  
 </manifest>
