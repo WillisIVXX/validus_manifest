@@ -2,16 +2,19 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="http://android.googlesource.com/"
-           review="https://android-review.googlesource.com/"
+           fetch="https://android.googlesource.com/"
+           review="android-review.googlesource.com"
            sync-j="1" />
 
   <remote  name="gzr"
-           fetch="https://github.com/GzRoms-Redux/" />
+           fetch="git://github.com/GzRoms-Redux/"
+           sync-c="true"
+           sync-j="4" />
 
   <remote  name="cm"
            fetch="git://github.com/" 
            review="review.cyanogenmod.org" 
+           sync-c="true"
            sync-j="4" />
 
   <remote  name="cr"
@@ -20,25 +23,32 @@
            sync-j="4" />
            
   <remote name="du"
-           fetch="https://github.com/DirtyUnicorns-KitKat/"
-           review="gerrit.dirtyunicorns.com" />           
+           fetch="git://github.com/DirtyUnicorns-KitKat/"
+           review="gerrit.dirtyunicorns.com"
+           sync-c="true"
+           sync-j="4" />           
            
   <remote name="ln"
            fetch="git://android.git.linaro.org/" />           
 
   <remote  name="gh"
-           fetch="https://github.com/"
+           fetch="git://github.com/"
+           sync-c="true"
            sync-j="4" />
 
   <remote  name="sf"
            fetch="git://git.code.sf.net/p/"
+           sync-c="true"
            sync-j="4" />
 
   <remote  name="tm"
-           fetch="git://github.com/TheMuppets/" />
+           fetch="git://github.com/TheMuppets/"
+           sync-c="true"
+           sync-j="4" />
 
   <default revision="refs/heads/kk"
            remote="cr"
+           sync-c="true"
            sync-j="4" />
 
   <project path="build" name="GzRoms-Redux/validus_build" remote="gh" revision="archi" >
