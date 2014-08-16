@@ -2,12 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="http://android.googlesource.com/"
-           review="https://android-review.googlesource.com/"
+           fetch="https://android.googlesource.com/"
+            review="android-review.googlesource.com"
            sync-j="1" />
 
   <remote  name="gzr"
-           fetch="https://github.com/GzRoms-Redux/" />
+           fetch="git://github.com/GzRoms-Redux/" />
 
   <remote  name="cm"
            fetch="git://github.com/" 
@@ -20,14 +20,14 @@
            sync-j="4" />
            
   <remote name="du"
-           fetch="https://github.com/DirtyUnicorns-KitKat/"
+           fetch="git://github.com/DirtyUnicorns-KitKat/"
            review="gerrit.dirtyunicorns.com" />           
            
   <remote name="ln"
            fetch="git://android.git.linaro.org/" />           
 
   <remote  name="gh"
-           fetch="https://github.com/"
+           fetch="git://github.com/"
            sync-j="4" />
 
   <remote  name="sf"
