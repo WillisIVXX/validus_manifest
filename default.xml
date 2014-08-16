@@ -2,12 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="http://android.googlesource.com/"
-           review="https://android-review.googlesource.com/"
+           fetch="https://android.googlesource.com/"
+            review="android-review.googlesource.com"
            sync-j="1" />
 
   <remote  name="gzr"
-           fetch="https://github.com/GzRoms-Redux/" />
+           fetch="git://github.com/GzRoms-Redux/" />
 
   <remote  name="cm"
            fetch="git://github.com/" 
