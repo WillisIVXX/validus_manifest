@@ -512,7 +512,6 @@
   
   <!-- Vendor Files -->
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="cm-11.0" />
-  <project name="GzRoms-Redux/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="kitkat" />
   
   <!-- Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="gh" revision="master" />
